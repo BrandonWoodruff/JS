@@ -1,0 +1,16 @@
+function setFlags() {
+  console.log('function setFlags')
+  //TODO parse command line arguments
+  const arg = process.argv.slice(2)
+
+  if (arg == '-h' || arg == '--help') {
+    console.log('Help Function')
+    //display help.txt and exit
+  }
+  if (arg == '-b' || arg == '--block') {
+    console.log('Block Function')
+    //TODO
+  }
+
+}
+setFlags()
